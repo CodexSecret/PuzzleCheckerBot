@@ -1,0 +1,19 @@
+{
+  "name": "puzzlecheckerbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "deploy": "node deploy-commands.js",
+    "database": "node initDatabase.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "nodemon": "^3.1.4",
+    "sqlite3": "^5.1.7"
+  }
+}
